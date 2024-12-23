@@ -4,6 +4,7 @@ import {Home} from './components/Home.jsx'
 import {About} from './components/About.jsx';
 import {Skills} from './components/Skills.jsx';
 import {Work} from './components/Work.jsx';
+import {Contact} from './components/Contact.jsx';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <About/>
     <Skills/>
     <Work/>
+    <Contact/>
     </>
   );
 }
