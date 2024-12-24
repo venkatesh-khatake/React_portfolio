@@ -11,9 +11,10 @@ export function Contact(){
                
             </div>
             <div className="contact-right">
-dfk
+
             </div>
         </div>
+      </div>
       </div>
     )
 
