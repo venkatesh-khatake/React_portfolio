@@ -1,0 +1,87 @@
+.work {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #121212;  */
+}
+
+.work h4 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    /* border-radius: 10px;  */
+}
+.pro-img{
+    width: 100%;
+    height: 175px;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden; /* Prevent vertical overflow */
+    overflow-x: hidden; /* Avoid horizontal scroll */
+    padding: 20px;
+}
+
+.card {
+    width: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */
+
+.card-body {
+    text-align: center;
+}
+
+.lang {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lang h6 {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 10px;
+    background-color: #f8f9fa;
+}
+
+.lang h6:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
