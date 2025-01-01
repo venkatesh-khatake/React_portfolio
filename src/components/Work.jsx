@@ -64,7 +64,7 @@ export function Work(props) {
 
     return (
         <div className="work container-fluid py-5" id='work'>
-            <h4 className="text-center mb-4">Skills</h4>
+            <h4 className="text-center mb-4">Projects</h4>
             <div className="container d-flex flex-wrap justify-content-center align-items-center">
                 {WorkData.map((item, index) => (
                     <div className="card m-3" key={index} style={{ width: "18rem" }}>
